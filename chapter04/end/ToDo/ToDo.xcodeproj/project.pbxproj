@@ -15,10 +15,7 @@
 		F20D252F27045FA600546FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20D252D27045FA600546FC9 /* LaunchScreen.storyboard */; };
 		F20D254427045FA600546FC9 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D254327045FA600546FC9 /* ToDoUITests.swift */; };
 		F20D254627045FA600546FC9 /* ToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D254527045FA600546FC9 /* ToDoUITestsLaunchTests.swift */; };
-		F217CE5127075A85008B066C /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5027075A85008B066C /* ToDoItemTests.swift */; };
-		F217CE5327076C08008B066C /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5227076C08008B066C /* ToDoItem.swift */; };
-		F217CE552708773B008B066C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE542708773B008B066C /* Location.swift */; };
-		F217CE57270B6245008B066C /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE56270B6245008B066C /* LocationTests.swift */; };
+		F24630FC2735313500D0AF57 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24630FB2735313500D0AF57 /* ToDoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +48,7 @@
 		F20D253F27045FA600546FC9 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20D254327045FA600546FC9 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		F20D254527045FA600546FC9 /* ToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F217CE5027075A85008B066C /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
-		F217CE5227076C08008B066C /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
-		F217CE542708773B008B066C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		F217CE56270B6245008B066C /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		F24630FB2735313500D0AF57 /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +106,6 @@
 				F20D252B27045FA600546FC9 /* Assets.xcassets */,
 				F20D252D27045FA600546FC9 /* LaunchScreen.storyboard */,
 				F20D253027045FA600546FC9 /* Info.plist */,
-				F217CE5227076C08008B066C /* ToDoItem.swift */,
-				F217CE542708773B008B066C /* Location.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -121,8 +113,7 @@
 		F20D253827045FA600546FC9 /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				F217CE5027075A85008B066C /* ToDoItemTests.swift */,
-				F217CE56270B6245008B066C /* LocationTests.swift */,
+				F24630FB2735313500D0AF57 /* ToDoTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -269,8 +260,6 @@
 			files = (
 				F20D252727045FA500546FC9 /* ViewController.swift in Sources */,
 				F20D252327045FA500546FC9 /* AppDelegate.swift in Sources */,
-				F217CE552708773B008B066C /* Location.swift in Sources */,
-				F217CE5327076C08008B066C /* ToDoItem.swift in Sources */,
 				F20D252527045FA500546FC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,8 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F217CE57270B6245008B066C /* LocationTests.swift in Sources */,
-				F217CE5127075A85008B066C /* ToDoItemTests.swift in Sources */,
+				F24630FC2735313500D0AF57 /* ToDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
