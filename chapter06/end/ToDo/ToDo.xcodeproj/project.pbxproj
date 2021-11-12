@@ -22,6 +22,7 @@
 		F217CE57270B6245008B066C /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE56270B6245008B066C /* LocationTests.swift */; };
 		F217CE5B27102927008B066C /* ToDoItemStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */; };
 		F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5C27103157008B066C /* ToDoItemStore.swift */; };
+		F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B98D27367E09003648FF /* FileManagerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F217CE56270B6245008B066C /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStoreTests.swift; sourceTree = "<group>"; };
 		F217CE5C27103157008B066C /* ToDoItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStore.swift; sourceTree = "<group>"; };
+		F274B98D27367E09003648FF /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				F217CE542708773B008B066C /* Location.swift */,
 				F216CED32725495F007C7E93 /* Coordinate.swift */,
 				F217CE5C27103157008B066C /* ToDoItemStore.swift */,
+				F274B98D27367E09003648FF /* FileManagerExtension.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				F20D252327045FA500546FC9 /* AppDelegate.swift in Sources */,
 				F217CE552708773B008B066C /* Location.swift in Sources */,
 				F217CE5327076C08008B066C /* ToDoItem.swift in Sources */,
+				F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */,
 				F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */,
 				F20D252527045FA500546FC9 /* SceneDelegate.swift in Sources */,
 			);
