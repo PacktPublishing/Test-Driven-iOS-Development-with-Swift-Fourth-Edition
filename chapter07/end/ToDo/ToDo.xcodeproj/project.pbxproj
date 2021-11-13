@@ -23,6 +23,7 @@
 		F217CE5B27102927008B066C /* ToDoItemStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */; };
 		F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5C27103157008B066C /* ToDoItemStore.swift */; };
 		F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B98D27367E09003648FF /* FileManagerExtension.swift */; };
+		F2D08F90273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStoreTests.swift; sourceTree = "<group>"; };
 		F217CE5C27103157008B066C /* ToDoItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStore.swift; sourceTree = "<group>"; };
 		F274B98D27367E09003648FF /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsListViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				F217CE5027075A85008B066C /* ToDoItemTests.swift */,
 				F217CE56270B6245008B066C /* LocationTests.swift */,
 				F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */,
+				F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = dasdom;
 				TargetAttributes = {
 					F20D251E27045FA500546FC9 = {
 						CreatedOnToolsVersion = 13.0;
@@ -297,6 +301,7 @@
 				F217CE5B27102927008B066C /* ToDoItemStoreTests.swift in Sources */,
 				F217CE57270B6245008B066C /* LocationTests.swift in Sources */,
 				F217CE5127075A85008B066C /* ToDoItemTests.swift in Sources */,
+				F2D08F90273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
