@@ -24,6 +24,7 @@
 		F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5C27103157008B066C /* ToDoItemStore.swift */; };
 		F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B98D27367E09003648FF /* FileManagerExtension.swift */; };
 		F2D08F90273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */; };
+		F2D08F92273FAD1600DB131E /* ToDoItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D08F91273FAD1600DB131E /* ToDoItemsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		F217CE5C27103157008B066C /* ToDoItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStore.swift; sourceTree = "<group>"; };
 		F274B98D27367E09003648FF /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsListViewControllerTests.swift; sourceTree = "<group>"; };
+		F2D08F91273FAD1600DB131E /* ToDoItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				F216CED32725495F007C7E93 /* Coordinate.swift */,
 				F217CE5C27103157008B066C /* ToDoItemStore.swift */,
 				F274B98D27367E09003648FF /* FileManagerExtension.swift */,
+				F2D08F91273FAD1600DB131E /* ToDoItemsListViewController.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				F217CE552708773B008B066C /* Location.swift in Sources */,
 				F217CE5327076C08008B066C /* ToDoItem.swift in Sources */,
 				F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */,
+				F2D08F92273FAD1600DB131E /* ToDoItemsListViewController.swift in Sources */,
 				F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */,
 				F20D252527045FA500546FC9 /* SceneDelegate.swift in Sources */,
 			);
