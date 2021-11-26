@@ -41,7 +41,7 @@ class FirstDemoTests: XCTestCase {
 
     let result = blogger.makeHeadline(from: input)
 
-    let expected = "The ContextuaI Action Menu"
+    let expected = "The Contextual Action Menu"
     XCTAssertEqual(result, expected)
   }
 }
