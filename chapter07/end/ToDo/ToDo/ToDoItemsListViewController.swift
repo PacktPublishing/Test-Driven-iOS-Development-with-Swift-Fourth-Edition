@@ -9,6 +9,7 @@ class ToDoItemsListViewController: UIViewController {
 
   @IBOutlet weak var tableView: UITableView!
   var toDoItemStore: ToDoItemStoreProtocol?
+  let dateFormatter = DateFormatter()
   private var items: [ToDoItem] = []
   private var token: AnyCancellable?
 
@@ -22,6 +23,11 @@ class ToDoItemsListViewController: UIViewController {
 
         self?.items = items
     })
+
+    tableView.register(
+      ToDoItemCell.self,
+      forCellReuseIdentifier: "ToDoItemCell"
+    )
   }
 }
 
@@ -39,6 +45,18 @@ extension ToDoItemsListViewController:
     _ tableView: UITableView,
     cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-      return UITableViewCell()
+      let cell = tableView.dequeueReusableCell(
+        withIdentifier: "ToDoItemCell",
+        for: indexPath
+      ) as! ToDoItemCell
+
+      let item = items[indexPath.row]
+      cell.titleLabel.text = item.title
+      if let timestamp = item.timestamp {
+        let date = Date(timeIntervalSince1970: timestamp)
+        cell.dateLabel.text = dateFormatter.string(from: date)
+      }
+
+      return cell
     }
 }

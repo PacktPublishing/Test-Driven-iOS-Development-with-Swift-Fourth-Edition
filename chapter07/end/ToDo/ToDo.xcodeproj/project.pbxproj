@@ -22,6 +22,8 @@
 		F217CE57270B6245008B066C /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE56270B6245008B066C /* LocationTests.swift */; };
 		F217CE5B27102927008B066C /* ToDoItemStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */; };
 		F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217CE5C27103157008B066C /* ToDoItemStore.swift */; };
+		F247624227514DD700DD9492 /* ToDoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247624127514DD700DD9492 /* ToDoItemCell.swift */; };
+		F24762442753787800DD9492 /* ToDoItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762432753787800DD9492 /* ToDoItemCellTests.swift */; };
 		F258EDB227410F970061DCC3 /* ToDoItemStoreProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258EDB127410F970061DCC3 /* ToDoItemStoreProtocolMock.swift */; };
 		F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B98D27367E09003648FF /* FileManagerExtension.swift */; };
 		F2D08F90273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */; };
@@ -65,6 +67,8 @@
 		F217CE56270B6245008B066C /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStoreTests.swift; sourceTree = "<group>"; };
 		F217CE5C27103157008B066C /* ToDoItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStore.swift; sourceTree = "<group>"; };
+		F247624127514DD700DD9492 /* ToDoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
+		F24762432753787800DD9492 /* ToDoItemCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCellTests.swift; sourceTree = "<group>"; };
 		F258EDB127410F970061DCC3 /* ToDoItemStoreProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStoreProtocolMock.swift; sourceTree = "<group>"; };
 		F274B98D27367E09003648FF /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsListViewControllerTests.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				F217CE5C27103157008B066C /* ToDoItemStore.swift */,
 				F274B98D27367E09003648FF /* FileManagerExtension.swift */,
 				F2D08F91273FAD1600DB131E /* ToDoItemsListViewController.swift */,
+				F247624127514DD700DD9492 /* ToDoItemCell.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */,
 				F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */,
 				F258EDB127410F970061DCC3 /* ToDoItemStoreProtocolMock.swift */,
+				F24762432753787800DD9492 /* ToDoItemCellTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 				F217CE552708773B008B066C /* Location.swift in Sources */,
 				F217CE5327076C08008B066C /* ToDoItem.swift in Sources */,
 				F274B98E27367E09003648FF /* FileManagerExtension.swift in Sources */,
+				F247624227514DD700DD9492 /* ToDoItemCell.swift in Sources */,
 				F2D08F92273FAD1600DB131E /* ToDoItemsListViewController.swift in Sources */,
 				F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */,
 				F20D252527045FA500546FC9 /* SceneDelegate.swift in Sources */,
@@ -305,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24762442753787800DD9492 /* ToDoItemCellTests.swift in Sources */,
 				F217CE5B27102927008B066C /* ToDoItemStoreTests.swift in Sources */,
 				F217CE57270B6245008B066C /* LocationTests.swift in Sources */,
 				F217CE5127075A85008B066C /* ToDoItemTests.swift in Sources */,
