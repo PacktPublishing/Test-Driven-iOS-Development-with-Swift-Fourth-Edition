@@ -6,7 +6,8 @@ import UIKit
 import Combine
 
 enum Section {
-  case main
+  case todo
+  case done
 }
 
 class ToDoItemsListViewController: UIViewController {
@@ -58,8 +59,13 @@ class ToDoItemsListViewController: UIViewController {
   private func update(with items: [ToDoItem]) {
     var snapshot =
     NSDiffableDataSourceSnapshot<Section, ToDoItem>()
-    snapshot.appendSections([.main])
-    snapshot.appendItems(items)
+    snapshot.appendSections([.todo, .done])
+    snapshot.appendItems(
+      items.filter({ false == $0.done }),
+      toSection: .todo)
+    snapshot.appendItems(
+      items.filter({ $0.done }),
+      toSection: .done)
     dataSource?.apply(snapshot)
   }
 }
