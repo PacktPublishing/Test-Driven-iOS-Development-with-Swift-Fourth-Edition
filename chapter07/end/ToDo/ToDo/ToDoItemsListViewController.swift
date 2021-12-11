@@ -5,6 +5,12 @@
 import UIKit
 import Combine
 
+protocol ToDoItemsListViewControllerProtocol {
+  func selectToDoItem(
+    _ viewController: UIViewController,
+    item: ToDoItem)
+}
+
 enum Section {
   case todo
   case done
@@ -19,6 +25,7 @@ class ToDoItemsListViewController: UIViewController {
   private var token: AnyCancellable?
   private var dataSource:
     UITableViewDiffableDataSource<Section, ToDoItem>?
+  var delegate: ToDoItemsListViewControllerProtocol?
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -39,6 +46,7 @@ class ToDoItemsListViewController: UIViewController {
           cell.dateLabel.text = self?.dateFormatter
             .string(from: date)
         }
+        cell.locationLabel.text = item.location?.name
 
         return cell
       })
@@ -54,6 +62,8 @@ class ToDoItemsListViewController: UIViewController {
       ToDoItemCell.self,
       forCellReuseIdentifier: "ToDoItemCell"
     )
+
+    tableView.delegate = self
   }
 
   private func update(with items: [ToDoItem]) {
@@ -67,5 +77,16 @@ class ToDoItemsListViewController: UIViewController {
       items.filter({ $0.done }),
       toSection: .done)
     dataSource?.apply(snapshot)
+  }
+}
+
+extension ToDoItemsListViewController:
+  UITableViewDelegate {
+
+  func tableView(_ tableView: UITableView,
+                 didSelectRowAt indexPath: IndexPath) {
+
+    let item = items[indexPath.row]
+    delegate?.selectToDoItem(self, item: item)
   }
 }

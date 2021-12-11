@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20A46C7276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20A46C6276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift */; };
 		F20D252327045FA500546FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D252227045FA500546FC9 /* AppDelegate.swift */; };
 		F20D252527045FA500546FC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D252427045FA500546FC9 /* SceneDelegate.swift */; };
 		F20D252727045FA500546FC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D252627045FA500546FC9 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20A46C6276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsListViewControllerProtocolMock.swift; sourceTree = "<group>"; };
 		F20D251F27045FA500546FC9 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20D252227045FA500546FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F20D252427045FA500546FC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */,
 				F258EDB127410F970061DCC3 /* ToDoItemStoreProtocolMock.swift */,
 				F24762432753787800DD9492 /* ToDoItemCellTests.swift */,
+				F20A46C6276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20A46C7276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift in Sources */,
 				F24762442753787800DD9492 /* ToDoItemCellTests.swift in Sources */,
 				F217CE5B27102927008B066C /* ToDoItemStoreTests.swift in Sources */,
 				F217CE57270B6245008B066C /* LocationTests.swift in Sources */,
