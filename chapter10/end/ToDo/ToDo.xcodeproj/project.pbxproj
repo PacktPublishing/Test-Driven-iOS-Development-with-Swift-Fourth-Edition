@@ -150,17 +150,10 @@
 				F20D252B27045FA600546FC9 /* Assets.xcassets */,
 				F20D252D27045FA600546FC9 /* LaunchScreen.storyboard */,
 				F20D253027045FA600546FC9 /* Info.plist */,
-				F217CE5227076C08008B066C /* ToDoItem.swift */,
-				F217CE542708773B008B066C /* Location.swift */,
-				F216CED32725495F007C7E93 /* Coordinate.swift */,
-				F217CE5C27103157008B066C /* ToDoItemStore.swift */,
+				F2D60425278984FA003958A2 /* Model */,
+				F2D604262789850D003958A2 /* Views */,
+				F2D6042727898525003958A2 /* Networking */,
 				F274B98D27367E09003648FF /* FileManagerExtension.swift */,
-				F2D08F91273FAD1600DB131E /* ToDoItemsListViewController.swift */,
-				F247624127514DD700DD9492 /* ToDoItemCell.swift */,
-				F20A46F22765F27000A7EAC9 /* ToDoItemDetailsViewController.swift */,
-				F2BD5C4A2773734500136C85 /* ToDoItemInputView.swift */,
-				F2BD5C4C2773754300136C85 /* ToDoItemData.swift */,
-				F2A21E3D277DA9A000EA5825 /* APIClient.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -168,17 +161,9 @@
 		F20D253827045FA600546FC9 /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				F217CE5027075A85008B066C /* ToDoItemTests.swift */,
-				F217CE56270B6245008B066C /* LocationTests.swift */,
-				F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */,
-				F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */,
-				F258EDB127410F970061DCC3 /* ToDoItemStoreProtocolMock.swift */,
-				F24762432753787800DD9492 /* ToDoItemCellTests.swift */,
-				F20A46C6276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift */,
-				F20A46F02765EEEC00A7EAC9 /* ToDoItemDetailsViewControllerTests.swift */,
-				F2BD5C4627736FFE00136C85 /* ToDoItemInputViewTests.swift */,
-				F2A21E3F277DABCA00EA5825 /* APIClientMock.swift */,
-				F2A21E47277F071800EA5825 /* ToDoItemInputViewDelegateMock.swift */,
+				F2D604282789853C003958A2 /* Model */,
+				F2D604292789854D003958A2 /* Views */,
+				F2D6042A27898558003958A2 /* Doubles */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -190,6 +175,69 @@
 				F20D254527045FA600546FC9 /* ToDoUITestsLaunchTests.swift */,
 			);
 			path = ToDoUITests;
+			sourceTree = "<group>";
+		};
+		F2D60425278984FA003958A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F217CE5227076C08008B066C /* ToDoItem.swift */,
+				F217CE542708773B008B066C /* Location.swift */,
+				F216CED32725495F007C7E93 /* Coordinate.swift */,
+				F217CE5C27103157008B066C /* ToDoItemStore.swift */,
+				F2BD5C4C2773754300136C85 /* ToDoItemData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D604262789850D003958A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2D08F91273FAD1600DB131E /* ToDoItemsListViewController.swift */,
+				F247624127514DD700DD9492 /* ToDoItemCell.swift */,
+				F20A46F22765F27000A7EAC9 /* ToDoItemDetailsViewController.swift */,
+				F2BD5C4A2773734500136C85 /* ToDoItemInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2D6042727898525003958A2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F2A21E3D277DA9A000EA5825 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F2D604282789853C003958A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F217CE5027075A85008B066C /* ToDoItemTests.swift */,
+				F217CE56270B6245008B066C /* LocationTests.swift */,
+				F217CE5A27102927008B066C /* ToDoItemStoreTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D604292789854D003958A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2D08F8F273FA8D300DB131E /* ToDoItemsListViewControllerTests.swift */,
+				F24762432753787800DD9492 /* ToDoItemCellTests.swift */,
+				F20A46F02765EEEC00A7EAC9 /* ToDoItemDetailsViewControllerTests.swift */,
+				F2BD5C4627736FFE00136C85 /* ToDoItemInputViewTests.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2D6042A27898558003958A2 /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				F258EDB127410F970061DCC3 /* ToDoItemStoreProtocolMock.swift */,
+				F20A46C6276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift */,
+				F2A21E3F277DABCA00EA5825 /* APIClientMock.swift */,
+				F2A21E47277F071800EA5825 /* ToDoItemInputViewDelegateMock.swift */,
+			);
+			path = Doubles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
