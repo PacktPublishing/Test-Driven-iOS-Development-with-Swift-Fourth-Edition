@@ -34,6 +34,8 @@
 		F2A21E3E277DA9A000EA5825 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A21E3D277DA9A000EA5825 /* APIClient.swift */; };
 		F2A21E40277DABCA00EA5825 /* APIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A21E3F277DABCA00EA5825 /* APIClientMock.swift */; };
 		F2A21E48277F071800EA5825 /* ToDoItemInputViewDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A21E47277F071800EA5825 /* ToDoItemInputViewDelegateMock.swift */; };
+		F2A8617227AFBA6600DA4265 /* AppSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8617127AFBA6600DA4265 /* AppSetupTests.swift */; };
+		F2A8617427AFBE9C00DA4265 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8617327AFBE9C00DA4265 /* AppCoordinator.swift */; };
 		F2BD5C4527736EB900136C85 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = F2BD5C4427736EB900136C85 /* ViewInspector */; };
 		F2BD5C4727736FFE00136C85 /* ToDoItemInputViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD5C4627736FFE00136C85 /* ToDoItemInputViewTests.swift */; };
 		F2BD5C4B2773734500136C85 /* ToDoItemInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD5C4A2773734500136C85 /* ToDoItemInputView.swift */; };
@@ -92,6 +94,8 @@
 		F2A21E3D277DA9A000EA5825 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		F2A21E3F277DABCA00EA5825 /* APIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMock.swift; sourceTree = "<group>"; };
 		F2A21E47277F071800EA5825 /* ToDoItemInputViewDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemInputViewDelegateMock.swift; sourceTree = "<group>"; };
+		F2A8617127AFBA6600DA4265 /* AppSetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetupTests.swift; sourceTree = "<group>"; };
+		F2A8617327AFBE9C00DA4265 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F2BD5C4627736FFE00136C85 /* ToDoItemInputViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemInputViewTests.swift; sourceTree = "<group>"; };
 		F2BD5C4A2773734500136C85 /* ToDoItemInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemInputView.swift; sourceTree = "<group>"; };
 		F2BD5C4C2773754300136C85 /* ToDoItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemData.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				F2D604262789850D003958A2 /* Views */,
 				F2D6042727898525003958A2 /* Networking */,
 				F274B98D27367E09003648FF /* FileManagerExtension.swift */,
+				F2A8617327AFBE9C00DA4265 /* AppCoordinator.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				F2D604292789854D003958A2 /* Views */,
 				F2D6042A27898558003958A2 /* Doubles */,
 				F22B28F02792C62D00F2EC79 /* APIClientTests.swift */,
+				F2A8617127AFBA6600DA4265 /* AppSetupTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -399,6 +405,7 @@
 				F247624227514DD700DD9492 /* ToDoItemCell.swift in Sources */,
 				F2D08F92273FAD1600DB131E /* ToDoItemsListViewController.swift in Sources */,
 				F2BD5C4D2773754300136C85 /* ToDoItemData.swift in Sources */,
+				F2A8617427AFBE9C00DA4265 /* AppCoordinator.swift in Sources */,
 				F217CE5D27103157008B066C /* ToDoItemStore.swift in Sources */,
 				F20D252527045FA500546FC9 /* SceneDelegate.swift in Sources */,
 			);
@@ -409,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BD5C4727736FFE00136C85 /* ToDoItemInputViewTests.swift in Sources */,
+				F2A8617227AFBA6600DA4265 /* AppSetupTests.swift in Sources */,
 				F20A46F12765EEEC00A7EAC9 /* ToDoItemDetailsViewControllerTests.swift in Sources */,
 				F2C9FA97279BE90000DC9D69 /* URLSessionProtocolMock.swift in Sources */,
 				F20A46C7276384CF00A7EAC9 /* ToDoItemsListViewControllerProtocolMock.swift in Sources */,
