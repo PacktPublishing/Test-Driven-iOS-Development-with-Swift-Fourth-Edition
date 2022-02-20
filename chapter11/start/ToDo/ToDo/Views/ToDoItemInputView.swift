@@ -12,7 +12,6 @@ protocol ToDoItemInputViewDelegate {
 struct ToDoItemInputView: View {
 
   @ObservedObject var data: ToDoItemData
-  internal var didAppear: ((Self) -> Void)?
   let apiClient: APIClientProtocol
   var delegate: ToDoItemInputViewDelegate?
 
@@ -42,7 +41,6 @@ struct ToDoItemInputView: View {
         })
       }
     }
-    .onAppear { self.didAppear?(self) }
   }
 
   func addToDoItem() {

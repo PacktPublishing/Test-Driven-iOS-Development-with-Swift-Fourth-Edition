@@ -12,7 +12,11 @@ class ToDoItemDetailsViewController: UIViewController {
   @IBOutlet var descriptionLabel: UILabel!
   @IBOutlet var mapView: MKMapView!
   @IBOutlet var doneButton: UIButton!
-  let dateFormatter = DateFormatter()
+  let dateFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateStyle = .short
+    return formatter
+  }()
   var toDoItemStore: ToDoItemStoreProtocol?
   var toDoItem: ToDoItem? {
     didSet {
@@ -39,6 +43,8 @@ class ToDoItemDetailsViewController: UIViewController {
   @IBAction func checkItem(_ sender: UIButton) {
     if let toDoItem = toDoItem {
       toDoItemStore?.check(toDoItem)
+
+      navigationController?.popViewController(animated: true)
     }
   }
 }

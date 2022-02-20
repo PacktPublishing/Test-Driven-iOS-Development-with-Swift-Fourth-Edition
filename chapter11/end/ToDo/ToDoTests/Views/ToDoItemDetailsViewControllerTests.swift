@@ -142,4 +142,19 @@ class ToDoItemDetailsViewControllerTests: XCTestCase {
 
     XCTAssertEqual(storeMock.checkLastCallArgument, toDoItem)
   }
+
+  func test_dateFormatter_shouldNotBeNone() {
+    XCTAssertNotEqual(sut.dateFormatter.dateStyle, .none)
+  }
+
+  func test_saveButtonAction_shouldPopViewController() {
+    let navigationControllerMock = NavigationControllerMock(rootViewController: UIViewController())
+    navigationControllerMock.pushViewController(sut, animated: false)
+    let toDoItem = ToDoItem(title: "dummy title")
+    sut.toDoItem = toDoItem
+
+    sut.doneButton.sendActions(for: .touchUpInside)
+
+    XCTAssertEqual(navigationControllerMock.popViewControllerCount, 1)
+  }
 }

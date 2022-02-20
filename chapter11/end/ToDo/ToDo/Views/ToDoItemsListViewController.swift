@@ -9,6 +9,8 @@ protocol ToDoItemsListViewControllerProtocol {
   func selectToDoItem(
     _ viewController: UIViewController,
     item: ToDoItem)
+  func addToDoItem(
+    _ viewController: UIViewController)
 }
 
 enum Section {
@@ -29,6 +31,8 @@ class ToDoItemsListViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    dateFormatter.dateStyle = .short
 
     dataSource =
     UITableViewDiffableDataSource<Section, ToDoItem>(
@@ -64,6 +68,26 @@ class ToDoItemsListViewController: UIViewController {
     )
 
     tableView.delegate = self
+
+    let addItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                  target: self,
+                                  action: #selector(add(_:)))
+    navigationItem.rightBarButtonItem = addItem
+  }
+
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+
+    token = toDoItemStore?.itemPublisher
+      .sink(receiveValue: { [weak self] items in
+        self?.items = items
+        self?.update(with: items)
+      })
+  }
+  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+
+    token?.cancel()
   }
 
   private func update(with items: [ToDoItem]) {
@@ -78,6 +102,10 @@ class ToDoItemsListViewController: UIViewController {
       toSection: .done)
     dataSource?.apply(snapshot)
   }
+
+  @objc func add(_ sender: UIBarButtonItem) {
+    delegate?.addToDoItem(self)
+  }
 }
 
 extension ToDoItemsListViewController:
@@ -86,7 +114,16 @@ extension ToDoItemsListViewController:
   func tableView(_ tableView: UITableView,
                  didSelectRowAt indexPath: IndexPath) {
 
-    let item = items[indexPath.row]
+    let item: ToDoItem
+    switch indexPath.section {
+      case 0:
+        let filteredItems = items.filter({ false == $0.done })
+        item = filteredItems[indexPath.row]
+      default:
+        let filteredItems = items.filter({ true == $0.done })
+        item = filteredItems[indexPath.row]
+    }
+
     delegate?.selectToDoItem(self, item: item)
   }
 }
