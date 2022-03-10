@@ -24,11 +24,11 @@ class ToDoItemDetailsViewController: UIViewController {
       locationLabel.text = toDoItem?.location?.name
       descriptionLabel.text = toDoItem?.itemDescription
 
-      if let coorinate = toDoItem?.location?.coordinate {
+      if let coordinate = toDoItem?.location?.coordinate {
         mapView.setCenter(
           CLLocationCoordinate2D(
-            latitude: coorinate.latitude,
-            longitude: coorinate.longitude),
+            latitude: coordinate.latitude,
+            longitude: coordinate.longitude),
           animated: false)
       }
 
