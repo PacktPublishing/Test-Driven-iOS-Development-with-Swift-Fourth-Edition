@@ -51,8 +51,9 @@ class ToDoItemsListViewControllerTests: XCTestCase {
   }
 
   func test_cellForRowAt_shouldReturnCellWithTitle1() throws {
+    let titleUnderTest = "dummy 1"
     toDoItemStoreMock.itemPublisher
-      .send([ToDoItem(title: "dummy 1")])
+      .send([ToDoItem(title: titleUnderTest)])
     let tableView = try XCTUnwrap(sut.tableView)
 
     let indexPath = IndexPath(row: 0, section: 0)
@@ -63,14 +64,15 @@ class ToDoItemsListViewControllerTests: XCTestCase {
       as? ToDoItemCell
     )
 
-    XCTAssertEqual(cell.titleLabel.text, "dummy 1")
+    XCTAssertEqual(cell.titleLabel.text, titleUnderTest)
   }
 
   func test_cellForRowAt_shouldReturnCellWithTitle2() throws {
+    let titleUnderTest = "dummy 2"
     toDoItemStoreMock.itemPublisher
       .send([
         ToDoItem(title: "dummy 1"),
-        ToDoItem(title: "dummy 2")
+        ToDoItem(title: titleUnderTest)
       ])
     let tableView = try XCTUnwrap(sut.tableView)
 
@@ -82,7 +84,7 @@ class ToDoItemsListViewControllerTests: XCTestCase {
       as? ToDoItemCell
     )
 
-    XCTAssertEqual(cell.titleLabel.text, "dummy 2")
+    XCTAssertEqual(cell.titleLabel.text, titleUnderTest)
   }
 
   func test_cellForRowAt_shouldReturnCellWithDate() throws {
