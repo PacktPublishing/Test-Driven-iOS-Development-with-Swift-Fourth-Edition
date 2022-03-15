@@ -4,7 +4,7 @@
 
 This is the code repository for [Test-Driven iOS Development with Swift](https://www.packtpub.com/product/test-driven-ios-development-with-swift-fourth-edition/9781803232485), published by Packt.
 
-**Discover a better approach to building, testing, and packaging your software**
+**Write maintainable, flexible, and extensible code using the power of TDD with Swift 5.5**
 
 ## What is this book about?
 Test-driven development (TDD) is a proven way to find software bugs earlier on in software development. Writing tests before you code improves the structure and maintainability of your apps, and so using TDD in combination with Swift 5.5's improved syntax leaves you with no excuse for writing bad code.
@@ -59,3 +59,9 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 **Dr. Dominik Hauser** 
 completed his PhD in physics from the University of Heidelberg. While working as a university professor, he started iOS development in his spare time. His first app on physics has been an astounding success worldwide. Since then, he has turned himself into a full-time iOS developer, with a number of successful apps to his name. He has been a Swift developer since day one and runs a blog on iOS development.
+
+## Other books by the authors
+* [Test-Driven iOS Development with Swift 4 - Third Edition](https://www.packtpub.com/product/test-driven-ios-development-with-swift-4-third-edition/9781788475709)
+* [Test-Driven iOS Development with Swift 3](https://www.packtpub.com/product/test-driven-ios-development-with-swift-3/9781787129078)
+* [Test-Driven iOS Development with Swift](https://www.packtpub.com/product/test-driven-ios-development-with-swift/9781785880735)
+* [Swift 3 for iOS Applications](https://www.packtpub.com/product/swift-3-for-ios-applications/9781788290500)
