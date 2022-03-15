@@ -59,4 +59,3 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 **Dr. Dominik Hauser** 
 completed his PhD in physics from the University of Heidelberg. While working as a university professor, he started iOS development in his spare time. His first app on physics has been an astounding success worldwide. Since then, he has turned himself into a full-time iOS developer, with a number of successful apps to his name. He has been a Swift developer since day one and runs a blog on iOS development.
-
