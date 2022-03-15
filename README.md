@@ -60,7 +60,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Dr. Dominik Hauser** 
 completed his PhD in physics from the University of Heidelberg. While working as a university professor, he started iOS development in his spare time. His first app on physics has been an astounding success worldwide. Since then, he has turned himself into a full-time iOS developer, with a number of successful apps to his name. He has been a Swift developer since day one and runs a blog on iOS development.
 
-## Other books by the authors
+## Other books by the author
 * [Test-Driven iOS Development with Swift 4 - Third Edition](https://www.packtpub.com/product/test-driven-ios-development-with-swift-4-third-edition/9781788475709)
 * [Test-Driven iOS Development with Swift 3](https://www.packtpub.com/product/test-driven-ios-development-with-swift-3/9781787129078)
 * [Test-Driven iOS Development with Swift](https://www.packtpub.com/product/test-driven-ios-development-with-swift/9781785880735)
