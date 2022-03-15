@@ -1,6 +1,6 @@
 # Test-Driven iOS Development with Swift
 
-<a href="https://www.packtpub.com/product/test-driven-ios-development-with-swift-fourth-edition/9781803232485"><img src=https://static.packt-cdn.com/products/9781803232485/cover/smaller></a>
+<a href="https://www.packtpub.com/product/test-driven-ios-development-with-swift-fourth-edition/9781803232485"><img src=https://static.packt-cdn.com/products/9781803232485/cover/smaller>alt="Digital Marketing with Drupal" height="256px" align="right"></a>
 
 This is the code repository for [Test-Driven iOS Development with Swift](https://www.packtpub.com/product/test-driven-ios-development-with-swift-fourth-edition/9781803232485), published by Packt.
 
