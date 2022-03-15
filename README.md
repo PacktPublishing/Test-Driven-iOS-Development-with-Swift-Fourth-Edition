@@ -50,7 +50,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 
 ### Related products
-* SwiftUI Cookbook - Second Edition [[Packt]](https://www.packtpub.com/product/cmake-cookbook/9781788470711) [[Amazon]](https://www.amazon.com/SwiftUI-Cookbook-problems-learning-practices/dp/1803234458)
+* SwiftUI Cookbook - Second Edition [[Packt]](https://www.packtpub.com/product/SwiftUI-Cookbook/9781803234458) [[Amazon]](https://www.amazon.com/SwiftUI-Cookbook-problems-learning-practices/dp/1803234458)
 
 * SwiftUI Projects [[Packt]](https://www.packtpub.com/product/swiftui-projects/9781839214660) [[Amazon]](https://www.amazon.com/SwiftUI-Projects-real-world-cross-platform-applications/dp/183921466X)
 
