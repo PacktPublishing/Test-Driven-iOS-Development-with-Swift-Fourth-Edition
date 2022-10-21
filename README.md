@@ -65,3 +65,7 @@ completed his PhD in physics from the University of Heidelberg. While working as
 * [Test-Driven iOS Development with Swift 3](https://www.packtpub.com/product/test-driven-ios-development-with-swift-3/9781787129078)
 * [Test-Driven iOS Development with Swift](https://www.packtpub.com/product/test-driven-ios-development-with-swift/9781785880735)
 * [Swift 3 for iOS Applications](https://www.packtpub.com/product/swift-3-for-ios-applications/9781788290500)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781803232485">https://packt.link/free-ebook/9781803232485 </a> </p>
